@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PSX2USB)(type Legacy)(uri ${KIPRJMOD}/PSX2USB.lib)(options "")(descr ""))
+  (lib (name CRGCQ0805J22R)(type Legacy)(uri ${KIPRJMOD}/CRGCQ0805J22R/CRGCQ0805J22R.lib)(options "")(descr ""))
+)

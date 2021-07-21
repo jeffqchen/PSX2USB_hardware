@@ -1,0 +1,110 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PSX2USB:PSXConnector P1
+U 1 1 60D59FD9
+P 4950 2700
+F 0 "P1" H 5000 2650 50  0000 C CNN
+F 1 "PSXConnector" V 4350 1500 50  0000 C CNN
+F 2 "PSX2USB:PSX Controller" H 5000 2650 50  0001 C CNN
+F 3 "" H 5000 2650 50  0001 C CNN
+	1    4950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L PSX2USB:ArduinoEdge P2
+U 1 1 60D63864
+P 8100 3050
+F 0 "P2" H 8400 3100 50  0000 C CNN
+F 1 "ArduinoEdge" V 8550 2400 50  0000 C CNN
+F 2 "PSX2USB:Arduino Edge" H 8400 3100 50  0001 C CNN
+F 3 "" H 8400 3100 50  0001 C CNN
+	1    8100 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3900 6550 3900
+Wire Wire Line
+	6550 3900 6550 3450
+Wire Wire Line
+	4950 3700 6800 3700
+Wire Wire Line
+	4950 4300 6700 4300
+Wire Wire Line
+	6700 4300 6700 3850
+Wire Wire Line
+	6700 3850 8100 3850
+Wire Wire Line
+	6350 3300 4950 3300
+Wire Wire Line
+	5900 4100 4950 4100
+$Comp
+L CRGCQ0805J22R:CRGCQ0805J22R R1
+U 1 1 60D68C76
+P 7000 3100
+F 0 "R1" H 7000 3342 50  0000 C CNN
+F 1 "4.7K" H 7000 3251 50  0000 C CNN
+F 2 "PSX2USB:Resistor" H 7000 3100 50  0001 L BNN
+F 3 "" H 7000 3100 50  0001 L BNN
+F 4 "2176342-9" H 7000 3100 50  0001 L BNN "Comment"
+	1    7000 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3100 7400 3250
+Wire Wire Line
+	6550 3450 7400 3450
+Wire Wire Line
+	4950 3100 6150 3100
+Wire Wire Line
+	6150 4050 6150 3100
+Connection ~ 6150 3100
+Wire Wire Line
+	6150 3100 6600 3100
+Wire Wire Line
+	6150 4050 8100 4050
+Wire Wire Line
+	6350 3300 6350 4200
+Wire Wire Line
+	6350 4200 7400 4200
+Wire Wire Line
+	7400 4200 7400 4250
+Wire Wire Line
+	7400 4250 8100 4250
+Wire Wire Line
+	5900 4450 5900 4100
+Wire Wire Line
+	5900 4450 8100 4450
+Wire Wire Line
+	8100 3250 7400 3250
+Connection ~ 7400 3250
+Wire Wire Line
+	7400 3250 7400 3450
+Wire Wire Line
+	8100 3450 7550 3450
+Wire Wire Line
+	7550 3450 7550 3550
+Wire Wire Line
+	7550 3550 6800 3550
+Wire Wire Line
+	6800 3550 6800 3700
+Wire Wire Line
+	8100 3650 5800 3650
+Wire Wire Line
+	5800 3650 5800 3500
+Wire Wire Line
+	5800 3500 4950 3500
+$EndSCHEMATC
