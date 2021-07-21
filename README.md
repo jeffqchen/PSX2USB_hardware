@@ -7,7 +7,9 @@ Parts
 - Arduino Pro Micro (preferably 3.3V version)
 
 - PSX2USB PCB
-Order from here: https://oshpark.com/shared_projects/5XfiUruJ
+Order from here (or download the gerber file from this repo and order on your own): 
+
+https://oshpark.com/shared_projects/5XfiUruJ
 
 - One 0603 size 4.7K SMD resistor
 
