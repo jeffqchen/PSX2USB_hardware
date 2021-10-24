@@ -1,11 +1,14 @@
 # PSX2USB_hardware
 
-<img src="./Pics/01.jpg" width="400px" />
-<img src="./Pics/02.jpg" width="400px" />
-<img src="./Pics/03.jpg" width="400px" />
-<img src="./Pics/04.jpg" width="400px" />
-<img src="./Pics/05.jpg" width="400px" />
-<img src="./Pics/06.jpg" width="400px" />
+<img src="./Pics/01.jpg" width="200px" />
+<img src="./Pics/02.jpg" width="200px" />
+<img src="./Pics/03.jpg" width="200px" />
+
+&nbsp;
+
+<img src="./Pics/04.jpg" width="200px" />
+<img src="./Pics/05.jpg" width="200px" />
+<img src="./Pics/06.jpg" width="200px" />
 
 
 This is my iteration of a PSX to USB controller adapter. It uses an Arduino Pro Micro as the micro controller. The 3D printed shell packs everything very tight together. Important LEDs shine through hidden windows on the shell.
