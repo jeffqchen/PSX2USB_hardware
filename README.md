@@ -10,19 +10,15 @@ This is my iteration of a PSX to USB controller adapter. It uses an Arduino Pro 
 -------------
 ## Parts
 
-PSX controller plug
-- https://www.aliexpress.com/item/32769355434.html
+- [PCB](https://oshpark.com/shared_projects/5XfiUruJ)
 
-Arduino Pro Micro (Preferably 3.3V version)
-- https://www.amazon.com/dp/B07LH6BSVG
+- PlayStation Controller Port - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/PlayStation%20Controller%20Port/info.md)
 
-PSX2USB PCB - Download the gerber file from this repo and order on your own. Or order from here:
-- https://oshpark.com/shared_projects/5XfiUruJ
+- Arduino Pro Micro (Preferably 3.3V version) - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Board/Arduino/Pro%20Micro/3.3V%208MHz/info.md)
 
-M2 Hex screw & nut (full length 13.75mm)
-- https://www.amazon.com/gp/product/B014OO5KQG
+- [1x] M2x12 Hex screw & nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
 
-One 0603 size 4.7K SMD resistor
+- [1x] 0603 size 4.7K SMD resistor
 
 -------------
 
@@ -31,8 +27,8 @@ One 0603 size 4.7K SMD resistor
 Print the two sides upright with support. That's it.
 
 -------------
-## Assembly
 
+## Assembly
 
 Snip off pin 9 flush from the PSX controller plug.
 
